@@ -138,8 +138,6 @@ html body main {
 html body main .first {
   height: 50.95rem;
   width: 100%;
-  background-color: #1b1b1b;
-  padding: 20px 30px;
   margin: 20px 0;
 }
 
@@ -149,6 +147,14 @@ html body main .first .first__content {
   height: 100vh;
   background-position: bottom;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
 }
 
 .navbar {

@@ -5,6 +5,9 @@
     font-family: 'Avenir';
     scroll-behavior: smooth;
 }
+$font-stack: 'Josefin Sans';
+$height: 50.95rem;
+
 
   @media only screen and (max-width: 980px) {
     html {
@@ -124,12 +127,11 @@ html {
             // background: #fff;
 
             .first {
-                height: 50.95rem;
+                height: $height;
                 width: 100%;
-                background-color: #1b1b1b;
-                padding: 20px 30px;
+                // background-color: #1b1b1b;
+                // padding: 20px 30px;
                 margin: 20px 0;
-                
 
                 .first__content {
                     background: url('/images/5.jpg');
@@ -137,6 +139,9 @@ html {
                     height: 100vh;
                     background-position: bottom;
                     background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    color: #fff;
                 }
             }
         }
